@@ -1,0 +1,54 @@
+{
+  "schema": {
+    "name": "MDS_Trace",
+    "version": "1.0"
+  },
+  "ids": {
+    "content_id": "2cf24dba5fb0",
+    "trace_id": "295ac12be269"
+  },
+  "created_at": "2026-02-05T21:00:26.099290+00:00",
+  "source": {
+    "title": "Run",
+    "kind": "user_text",
+    "canonical_status": "draft"
+  },
+  "non_governing": true,
+  "segments": [
+    {
+      "id": "p001.s001",
+      "span": {
+        "start_char": 0,
+        "end_char": 5
+      },
+      "D_proxy": {
+        "score": 0.4
+      },
+      "L_proxy": {
+        "score": 0.05
+      },
+      "ESC_proxy": {
+        "dependency": "low",
+        "score": 0.25
+      },
+      "R_proxy": {
+        "strength": 0.3,
+        "sign": "unknown",
+        "signatures": [
+          "echo_surface"
+        ],
+        "echo_links": []
+      }
+    }
+  ],
+  "aggregate": {
+    "segment_count": 1,
+    "echo_graph": {
+      "nodes": [
+        "p001.s001"
+      ],
+      "edges": [],
+      "density": 0.0
+    }
+  }
+}

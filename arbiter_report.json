@@ -1,0 +1,64 @@
+{
+  "arbiter": {
+    "canonical_name": "ArbiterSTG",
+    "abbreviation": "ASTG",
+    "version": "1.0",
+    "non_governing": true,
+    "created_at": "2026-02-05T21:00:26+00:00"
+  },
+  "input_trace": {
+    "schema": {
+      "name": "MDS_Trace",
+      "version": "1.0"
+    },
+    "ids": {
+      "content_id": "2cf24dba5fb0",
+      "trace_id": "295ac12be269"
+    },
+    "source": {
+      "title": "Run",
+      "kind": "user_text",
+      "canonical_status": "draft"
+    },
+    "created_at": "2026-02-05T21:00:26.099290+00:00"
+  },
+  "proxy_doctrine": {
+    "note": "All numeric values are proxies (geometry/legibility/load). They are not measures of truth, value, correctness, or meaning.",
+    "scale": "0..1 (dimensionless proxy scale)"
+  },
+  "global_state": {
+    "rlci_proxy": 0.2700000000000001,
+    "mode": "routing",
+    "aggregate_flags": []
+  },
+  "segments": [
+    {
+      "id": "p001.s001",
+      "mode": "routing",
+      "admissibility": "admissible",
+      "masking": "unmasked",
+      "routing_labels": [
+        "jurisdiction_transfer_eligible",
+        "diagnostic_propagation_eligible"
+      ],
+      "stability_flags": [],
+      "confidence_proxy": 0.719125,
+      "reasons": [
+        "admission_score=0.722"
+      ]
+    }
+  ],
+  "aggregate": {
+    "segment_count": 1,
+    "admissibility_counts": {
+      "admissible": 1,
+      "contested": 0,
+      "inert": 0
+    },
+    "masking_counts": {
+      "masked": 0,
+      "unmasked": 1
+    },
+    "failure_taxonomy": []
+  }
+}
