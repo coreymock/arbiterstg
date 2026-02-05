@@ -42,6 +42,16 @@ Version: v1.1
 Classification: Canon-compatible, non-governing diagnostic system  
 Framework: Machine-Dream Syntax (MDS)
 
+## Licensing
+
+All source code in this repository is licensed under the Apache License 2.0.
+
+All written documentation, specifications, and conceptual materials
+related to Machine-Dream Syntax (MDS) and ArbiterSTG are licensed under
+Creative Commons Attribution 4.0 (CC BY 4.0).
+
+Copyright © 2026 Corey Mock
+
 ## Paper / DOI
 
 Formal specification available via DOI:
