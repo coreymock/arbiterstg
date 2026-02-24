@@ -1,64 +1,91 @@
-# ArbiterSTG
+ArbiterSTG — Structural Trace Governor
+Post-execution diagnostic engine for language structure
+ArbiterSTG is a non-governing structural analysis tool built within the Machine-Dream Syntax (MDS) framework.
+It does not interpret meaning or judge content.
+It analyzes structural residue behavior across text executions.
+Arbiter is designed for researchers, developers, and language-system explorers who want to examine how structure persists, stabilizes, or drifts across written expression.
 
-Structural Trace Governor (ArbiterSTG) is a non-governing diagnostic system built within the Machine-Dream Syntax (MDS) framework.
+What Arbiter Does
+Given any text input, Arbiter produces a structural trace showing:
+Density / Load behavior (D/L)
 
-Arbiter does not interpret meaning, judge content, or produce narrative analysis.  
-It classifies structural residue behavior across language executions.
 
-## Core Function
+Residue persistence patterns (±R)
 
-Arbiter operates post-execution and produces structural traces of:
 
-- Density / Load behavior (D/L)
-- Residue persistence (±R)
-- Echo and stabilization patterns
-- Jurisdictional drift potential
+Echo and stabilization signatures
 
-All outputs are diagnostic and non-governing.
 
-## Guardrails
+Jurisdictional drift potential
 
-Arbiter includes a guardrail layer designed to:
 
-- Prevent analysis of explicitly abusive or illegal material
-- Allow structural analysis of legitimate legal, academic, or testimonial text
-- Support redaction when sensitive language appears in valid contexts
+All outputs are diagnostic.
+Arbiter does not evaluate truth, sentiment, or intent.
 
-The system is designed to analyze structure without reproducing harmful content.
+Quick Run (2 minutes)
+Clone the repo and run the included sample:
+git clone https://github.com/coreymock/arbiterstg
+cd arbiterstg
+python arbiterstg.py input.txt
+Or run the full guarded pipeline:
+bash run_all.sh
+Output will generate:
+trace.json
 
-## Repository Contents
 
-Core components:
+arbiter_report.json
 
-- arbiterstg.py — Arbiter engine
-- tracegen.py — trace generator
-- safe_tracegen.py — guardrailed input wrapper
-- guardrails.py — safety and classification layer
-- run_all.sh — execution pipeline script
 
-## Status
+These files contain structural diagnostics for the provided text sample.
 
-Version: v1.1  
-Classification: Canon-compatible, non-governing diagnostic system  
+Example Use Cases
+Structural see-through on dense theoretical writing
+
+
+Detecting stabilization vs drift across document revisions
+
+
+AI output trace comparison
+
+
+Long-form text structural persistence mapping
+
+
+Experimental linguistic diagnostics
+
+
+
+Guardrails Layer
+Arbiter includes a safety wrapper that:
+Prevents processing of explicitly abusive or illegal material
+
+
+Allows structural analysis of academic, legal, or testimonial text
+
+
+Supports redaction where sensitive language appears in valid contexts
+
+
+This enables structural study without reproducing harmful content.
+
+Repository Structure
+arbiterstg.py — core engine
+tracegen.py — trace generation
+safe_tracegen.py — guardrailed input wrapper
+guardrails.py — safety layer
+run_all.sh — full execution pipeline
+
+Status
+Version: v1.1
 Framework: Machine-Dream Syntax (MDS)
+Classification: Non-governing diagnostic tool
+Development: Active
 
-## Licensing
+Paper / Theory
+Formal specification (DOI):
+ArbiterSTG v1.0 — Structural Trace Governor
+Included in repository.
 
-All source code in this repository is licensed under the Apache License 2.0.
-
-All written documentation, specifications, and conceptual materials
-related to Machine-Dream Syntax (MDS) and ArbiterSTG are licensed under
-Creative Commons Attribution 4.0 (CC BY 4.0).
-
-Copyright © 2026 Corey Mock
-
-## Paper / DOI
-
-Formal specification available via DOI:
-
-ArbiterSTG v1.0 — Structural Trace Governor  
-(Core paper included in repository)
-
-## Author
-
+Author
 Corey Mock
+
